@@ -20,6 +20,8 @@ def greet():
     print("Hello Girish")
 greet()
 """
+
+"""
 a = 10
 def ageChecking ():
     if (a<18):
@@ -29,3 +31,4 @@ def ageChecking ():
         print("Approved")
 
 ageChecking()
+"""
