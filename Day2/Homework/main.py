@@ -17,10 +17,10 @@ for i in range(1, 101):
 
 # Write a program that takes a number and prints whether it is a palindrome or not.
 """
-"""
 num = input("Enter a number: ")
-revNum = num [::-1]
+revNum = num [::-1] # num[start:stop:step] 
 if num == revNum:
     print("It is a palindrome.")
 else:
     print("It's not a palindrome.")
+"""
