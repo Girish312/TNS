@@ -37,12 +37,14 @@ def checkSecondLargest(num):
   print(second_largest)
 checkSecondLargest([1,2,3,4,5,6,7,9,8])
 """
+
 # 4. given a list of tuples, write a function that returns a list of tuple sorted based on the second element in each tuple.
 """
 def sortBySecondElement(tuples_list):
     return sorted(tuples_list, key=lambda x: x[1])
 print(sortBySecondElement([(1, 3), (2, 2), (3, 1)]))
 """
+
 # 5. write a python function that take a tuples of number and return a sum of all elements
 """
 def sum_of_tuple(my_tuple):
@@ -123,5 +125,5 @@ def scholarstudent(student_dict):
 
     return top_students
 
-students = {"Alice": 85, "Bob": 92, "Charlie": 92, "David": 88}
+students = {"Girish": 85, "Kartik": 92, "Yash": 92, "Devesh": 88}
 print(scholarstudent(students))
