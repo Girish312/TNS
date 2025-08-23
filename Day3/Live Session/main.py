@@ -1,7 +1,9 @@
 """
+# iterating over a sequence or any iterable object. It's ideal when the number of iterations is known or determined by the size of the sequence.
 for i in range(0,6):
     print("Hello World")
 
+# repeatedly executing a block of code as long as a specified condition remains True. It's suitable when the number of iterations is not known beforehand and depends on a dynamic condition.
 i=0
 while (i<5):
     print("Hello World")

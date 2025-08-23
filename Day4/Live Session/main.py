@@ -35,12 +35,15 @@ print(number1)
 number = [10,20,30,40,50,60,70]
 print(max(number))
 print(min(number))
+list1 = ["Amit", "Zatch", "pappu"] #it will print Min as A and max as Z
+print(max(list1))
+print(min(list1))
 
 #calculate the sum of all elements in the list
 number = [10,20,30,40,50,60,70]
 print(sum(number))
 
-#given a tuple of number and a targeted element, find and print all indexes where the targeted elelment occurs in the tuple
+#given a tuple of number and a targeted element, find and print all indexes where the targeted element occurs in the tuple
 number = (1,2,3,4,5,6,7,8,9,10,5,11,5)
 targeted_element = 5
 for index in range(len(number)):
